@@ -1,0 +1,28 @@
+.custom-card{
+    width: 15rem;
+    height: 8rem;
+    border-radius: 0.2rem;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+    background-color: #FFFF;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.custom-card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+.custom-card-body img{
+    width: 3rem;
+    height: 3rem;
+}
+.map{
+    height: 42rem;
+}

@@ -13,3 +13,103 @@
     background-size: cover;
     height: 100%;
 }
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 10rem;
+}
+.text-primary-custom{
+    color: #003566;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.form-label{
+    color: #003566;
+}
+.form-control{
+    padding: 1rem;
+    padding-left: 1.2rem;
+}
+.form-control:hover{
+    border-color: #003566;
+}
+.text-hover{
+    color: blue;
+}
+.text-hover:hover{
+    cursor: pointer;
+    color: #0115ad;
+}
+.btn-primary-custom{
+    padding: 1rem;
+    background-color: #003566;
+    color: white;
+    border: none;
+}
+.btn-primary-custom:hover{
+    background-color: #064f93;
+    color: white;
+}
+.card-body{
+    padding: 1.5rem;
+    padding-bottom: 2rem;
+}
+.text-custom{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.text-style-1{
+    font-size: 2rem;
+    color: #003566;
+    font-weight: bold;
+}
+.text-style-2{
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 500;
+}
+.text-style-3{
+    font-size: 0.8rem;
+    color: #6e6e6e;
+    font-weight: 100;
+}
+.text-style-4{
+    font-size: 1.1rem;
+    color: #000000;
+    font-weight: bold;
+}
+.text-style-5{
+    font-size: 1.4rem;
+    color: #003566;
+    font-weight: 500;
+}
+.user-photo{
+    width: 2rem;
+    height: 2rem;
+    background-color: #003566;
+    border-radius: 50%;
+}
+.sidebar-custom{
+    background-color: #003566;
+}
+.nav-item{
+    padding: 1rem 1rem 0rem 1rem;
+}
+.nav-item a{
+    color: white;
+    
+}
+.nav-item a:hover{
+    cursor: pointer;
+    color:white;
+    background-color: #064f93;
+}
+.nav-item .active{
+    background-color: #064f93;
+    color: white;
+}

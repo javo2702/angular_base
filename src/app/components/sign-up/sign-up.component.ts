@@ -8,6 +8,6 @@ import { AuthService } from "../../shared/services/auth.service";
 })
 export class SignUpComponent {
   constructor(
-    public authService: AuthService
+    //public authService: AuthService
   ) { }
 }
