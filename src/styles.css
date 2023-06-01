@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+.bg-image{
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(10).webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+.bg-image-2{
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(18).webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}

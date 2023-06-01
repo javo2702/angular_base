@@ -1,0 +1,30 @@
+<div class="bg-image">
+  <div class="container mx-auto row align-items-center justify-content-center justify-content-lg-end vh-100">
+    <div class="card text-bg-light col-xs-10 col-sm-8 col-lg-4">
+        <div class="card-body">
+          <div class="authBlock">
+            <p class="text-center">LOGO</p>
+            <h3 class="text-center">Bienvenido</h3>
+            <div class="formGroup">
+              <label for="" class="form-label">Correo:</label>
+              <input type="text" class="form-control mb-2" placeholder="Ingrese su correo" #userName required>
+            </div>
+            <div class="form-group">
+              <label for="" class="form-label">Contraseña:</label>
+              <input type="password" class="form-control mb-2" placeholder="Ingrese su contraseña" #userPassword required>
+            </div>
+            <div class="forgotPassword text-end mb-4">
+              <span routerLink="/forgot-password" class="text-primary">¿No recuerda su contraseña?</span>
+            </div>
+            <!-- Calling SignIn Api from AuthService -->
+            <div class="form-group">
+              <input type="button" class="btn btn-primary w-100" value="Inisiar Sesion" (click)="authService.SignIn(userName.value, userPassword.value)">
+            </div>
+          </div>
+          <div class="redirectToLogin mt-2 text-center">
+            <span>Don't have an account?<span class="redirect text-primary" routerLink="/register-user"> Sign Up</span></span>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>

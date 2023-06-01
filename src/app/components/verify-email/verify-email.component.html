@@ -1,0 +1,26 @@
+<div class="bg-image-2">
+  <div class="container mx-auto d-flex align-items-center justify-content-center vh-100">
+    <div class="card p-4">
+      <div class="card-body">
+        <div class="authBlock">
+          <h3>Gracias por registrarte</h3>
+          <div class="formGroup" *ngIf="authService.userData as user">
+            <p class="text-center">Hemos enviado un correo de confirmación a: <strong>{{user.email}}</strong>.</p>
+            <p class="text-center">Revisa tu correo y selecciona verificar correo electronico</p>
+          </div>
+          
+          <!-- Calling SendVerificationMail() method using authService Api -->
+          <div class="formGroup">
+            <button type="button" class="btn btn-primary w-100" (click)="authService.SendVerificationMail()">
+              <i class="fas fa-redo-alt"></i>
+              Reenviar correo de verificacion
+            </button>
+          </div>
+        </div>
+        <div class="redirectToLogin mt-4 text-center">
+          <span>¿Regresar?<span class="redirect text-primary" routerLink="/sign-in"> Iniciar Sesion</span></span>
+        </div>
+      </div>
+  </div>
+  </div>
+</div>
